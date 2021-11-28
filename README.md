@@ -5,7 +5,26 @@ This project is built with MERN stack (MongoDB, Express, ReactJS and NodeJS) whe
 <br/>
 Hosted site - https://reinforce-application.herokuapp.com/  <br/>
 Hosted backend server - https://reinforce-app-server.herokuapp.com/  <br/>
-Swagger UI documentation - https://reinforce-app-server.herokuapp.com/swagger-ui  <br/>
+Swagger UI documentation - https://reinforce-app-server.herokuapp.com/swagger-ui  <br/><br/><br/>
+
+Sample credentials to login into system - 
+<br/>
+ADMIN - 
+<br/><br/>
+registration number = ADM100<br/>
+password = 2004-12-12
+<br/><br/>
+FACULTY - 
+<br/>
+registration number = FAC100<br/>
+password = 2002-11-11<br/>
+<br/><br/>
+STUDENT - <br/>
+
+registration number = STU102<br/>
+password = 2002-01-30<br/><br/>
+
+
 
 <ul>
     <li>
