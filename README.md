@@ -69,7 +69,7 @@ Swagger UI documentation - https://reinforce-app-server.herokuapp.com/swagger-ui
 It also has an admin panel that is the super user of the website. Faculties can easily post their quizzes to a student group on a single mouse button click and students are notified via a email. Student can put their queries to faculties and fellow students.
 
 ## Use Case Diagram
-![alt usecase](https://github.com/dk808080/Reinforce-MSEngage-project-/blob/main/Diagrams/use%20case.png)
+![alt usecase](https://github.com/dk808080/Reinforce/blob/main/Diagrams/use%20case.png)
 
 <ol>
         <li>
@@ -145,7 +145,7 @@ It is an open source NoSQL database management program. NoSQL is used as an alte
 
 #### Data Model Diagram 
 
-![alt data model diagram](https://github.com/dk808080/Reinforce-MSEngage-project-/blob/main/Diagrams/datamodels.png)
+![alt data model diagram](https://github.com/dk808080/Reinforce/blob/main/Diagrams/datamodels.png)
 
 
 ### Server
@@ -206,14 +206,14 @@ React. js is an open-source JavaScript library that is used for building user in
 </ol>
 
 ## Workflow of Token Based Authentication
-![alt auth flow](https://github.com/dk808080/Reinforce-MSEngage-project-/blob/main/Diagrams/auth%20flow.png)
+![alt auth flow](https://github.com/dk808080/Reinforce/blob/main/Diagrams/auth%20flow.png)
 
 
 ## Request Response Workflow
 
 Here I am taking an example of query submission to explain the workflow
 
-![alt req res workflow](https://github.com/dk808080/Reinforce-MSEngage-project-/blob/main/Diagrams/req%20res%20flow.png)
+![alt req res workflow](https://github.com/dk808080/Reinforce/blob/main/Diagrams/req%20res%20flow.png)
 
 
 ## Available Scripts
