@@ -1,0 +1,64 @@
+const Validator = require('validator');
+const isEmpty = require('./isEmpty');
+
+
+const validateStudentRegisterInput = (data) => {
+    let errors = {}
+    data.name = !isEmpty(data.name) ? data.name : '';
+    data.email = !isEmpty(data.email) ? data.email : '';
+    data.department = !isEmpty(data.department) ? data.department : '';
+    data.semester = !isEmpty(data.semester) ? data.semester : '';
+    data.dob = !isEmpty(data.dob) ? data.dob : '';
+    data.gender = !isEmpty(data.gender) ? data.gender : '';
+    data.year = !isEmpty(data.year) ? data.year : '';
+    data.contactNumber = !isEmpty(data.contactNumber) ? data.contactNumber : '';
+
+    if (!Validator.isLength(data.name, { min: 2, max: 30 })) {
+        errors.name = 'Name must be between 2 and 30 characters';
+    }
+
+    if (!Validator.isLength(data.contactNumber, { min: 10, max: 10 })) {
+        errors.name = 'contact number must contain 10 digits';
+    }
+
+    if (Validator.isEmpty(data.name)) {
+        errors.name = 'Name field is required';
+    }
+
+    if (!Validator.isEmail(data.email)) {
+        errors.email = 'Email is invalid';
+    }
+
+    if (Validator.isEmpty(data.email)) {
+        errors.email = 'Email field is required';
+    }
+
+
+    if (Validator.isEmpty(data.department)) {
+        errors.department = 'Department field is required';
+    }
+
+    if (Validator.isEmpty(data.year)) {
+        errors.year = 'Year field is required';
+    }
+
+    if (Validator.isEmpty(data.semester)) {
+        errors.semester = 'Semester field is required';
+    }
+
+    if (Validator.isEmpty(data.dob)) {
+        errors.dob = 'DOB field is required';
+    }
+    if (Validator.isEmpty(data.gender)) {
+        errors.dob = 'Gender field is required';
+    }
+
+    return {
+        errors,
+        isValid: isEmpty(errors)
+    };
+
+}
+
+
+module.exports = validateStudentRegisterInput
