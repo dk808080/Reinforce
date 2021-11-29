@@ -3,8 +3,9 @@
 This project is built with MERN stack (MongoDB, Express, ReactJS and NodeJS) where backend is written using <b>Model-View-Controller(MVC) architecture</b>.
 <br/>
 <br/>
-Hosted website - https://reinforce-application.herokuapp.com/  <br/>
+Hosted website - https://reinforce-application.herokuapp.com/  <br/><br/>
 Swagger UI documentation - https://reinforce-app-server.herokuapp.com/swagger-ui  <br/>
+(First we have to run login api before running other apis otherwise it will show access denied) <br/><br/>
 Android Application - https://drive.google.com/file/d/1GYSqex3IkgXEa_MZorex8MPH-6wo3Vdp/view?usp=sharing <br/><br/>
 
 Sample credentials to login into system - 
