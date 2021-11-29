@@ -84,7 +84,8 @@ password = 2002-01-30<br/><br/>
 
 <b>Reinforce -</b> This web project aim to facilitate posting and auto-grading the quizzes for students by faculties. 
 <br/>
-It also has an admin panel that is the super user of the website. Faculties can easily post their quizzes to a student group on a single mouse button click and students are notified via a email. Student can put their queries to faculties and fellow students.
+It also has an admin panel that is the super user of the website. Faculties can easily post their quizzes to a student group on a single mouse button click and students are notified via a email. Student can put their queries to faculties and fellow students. <br/>
+This is also a mobile friendly application.
 
 ## Use Case Diagram
 ![alt usecase](https://github.com/dk808080/Reinforce/blob/main/Diagrams/use%20case.png)
@@ -243,6 +244,8 @@ hostPassword= password of email id <br/>
 JWT_SECRET= jwt secret token <br/>
 serviceUsed= email service used <br/>
 <br/>
+
+### Steps to Run 
 Then in the project directory, you can run:
 
 ### `cd server`
