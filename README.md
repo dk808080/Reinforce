@@ -4,8 +4,8 @@ This project is built with MERN stack (MongoDB, Express, ReactJS and NodeJS) whe
 <br/>
 <br/>
 Hosted website - https://reinforce-application.herokuapp.com/  <br/>
-Swagger UI documentation - https://reinforce-app-server.herokuapp.com/swagger-ui  <br/><br/><br/>
-Android Application - https://drive.google.com/file/d/1GYSqex3IkgXEa_MZorex8MPH-6wo3Vdp/view?usp=sharing <br/>
+Swagger UI documentation - https://reinforce-app-server.herokuapp.com/swagger-ui  <br/>
+Android Application - https://drive.google.com/file/d/1GYSqex3IkgXEa_MZorex8MPH-6wo3Vdp/view?usp=sharing <br/><br/>
 
 Sample credentials to login into system - 
 <br/>
