@@ -3,9 +3,9 @@
 This project is built with MERN stack (MongoDB, Express, ReactJS and NodeJS) where backend is written using <b>Model-View-Controller(MVC) architecture</b>.
 <br/>
 <br/>
-Hosted site - https://reinforce-application.herokuapp.com/  <br/>
-Hosted backend server - https://reinforce-app-server.herokuapp.com/  <br/>
+Hosted website - https://reinforce-application.herokuapp.com/  <br/>
 Swagger UI documentation - https://reinforce-app-server.herokuapp.com/swagger-ui  <br/><br/><br/>
+Android Application - https://drive.google.com/file/d/1GYSqex3IkgXEa_MZorex8MPH-6wo3Vdp/view?usp=sharing <br/>
 
 Sample credentials to login into system - 
 <br/>
@@ -78,6 +78,11 @@ password = 2002-01-30<br/><br/>
             Available Scripts
         </a>
     </li>
+      <li>
+        <a href="#Android-Application">
+            Android Application
+        </a>
+    </li>
 </ul>
 
 ## Introduction
@@ -85,7 +90,7 @@ password = 2002-01-30<br/><br/>
 <b>Reinforce -</b> This web project aim to facilitate posting and auto-grading the quizzes for students by faculties. 
 <br/>
 It also has an admin panel that is the super user of the website. Faculties can easily post their quizzes to a student group on a single mouse button click and students are notified via a email. Student can put their queries to faculties and fellow students. <br/>
-This is also a mobile friendly application.
+This is also a mobile friendly web application and an android app is also built for which apk is shared above.
 
 ## Use Case Diagram
 ![alt usecase](https://github.com/dk808080/Reinforce/blob/main/Diagrams/use%20case.png)
@@ -270,3 +275,8 @@ Then navigate to your browser <a href="http://localhost:3000/">http://localhost:
 <br/>
 <br/>
 Navigate to your browser <a href="http://localhost:5000/swagger-ui/">http://localhost:5000/swagger-ui/</a> to use Swagger UI(to generate interactive API documentation that lets your users try out the API calls directly in the browser).
+
+## Android Application
+Android application is made using WebView and WebViewClient.
+WebView class is an extension of Android's View class that allows you to display web pages as a part of your activity layout. <br/>
+.apk can be downloaded from provided google drive link.
